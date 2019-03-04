@@ -1,24 +1,24 @@
 <template>
   <div>
-    <table v-for="column in columns">
-        <tr>
-            <th></th>
-            <th></th>
-            <th></th>          
-        </tr>
+    <table>
+      <tr v-for="row in rows">
+        <td v-for="col in columns">
+            {{ row[col] }}</td>
+      </tr>
     </table>
   </div>
 </template>
 
 <script>
 export default {
-  data() { 
-    return {};
+  data() {
+    return {
+     
+    };
   },
   name: "Superform",
-  methods:{
-    
-  },
+  methods: {},
+  props:['Superform']
 };
 </script>
 

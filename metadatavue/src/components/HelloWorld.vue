@@ -1,8 +1,8 @@
 <template>
   <div>
-    <super-form v-bind:metadata="mySuperform.metadata" v-bind:data="mySuperform.data" />
+    <super-form :Superform="mySuperform" v-bind:metadata="mySuperform.metadata" v-bind:data="mySuperform.data" />
     <hr>
-
+    
   </div>
 </template>
 
