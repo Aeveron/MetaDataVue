@@ -13,7 +13,7 @@ export default {
     return {
       mySuperform: {
         metadata: {
-          columns: ["name", "birthyear", "sex", "country", "sivil status"]
+          columns: ["name", "birthyear", "sex", "country", "sivil status", "siblings"]
         },
         data: [
           {
